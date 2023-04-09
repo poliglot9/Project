@@ -1,0 +1,29 @@
+*  {
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: "Roboto", sans-serif;
+	src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);
+}
+
+body {
+	margin: 0 auto;
+	font-family: "Roboto", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 18px;
+	line-height: 21px;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+	color: inherit;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}

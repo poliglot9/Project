@@ -1,0 +1,28 @@
+.footer {
+	min-height: 50px;
+	background: #0067A3;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 20px;
+	align-items: center;
+	width: 100%;
+
+}
+
+.counts {
+	display: flex;
+}
+
+.count {
+	font-family: "Roboto", Georgia, Serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	position: relative;
+	margin-right: 30px;
+}
+
+.copy {
+	margin-left: auto;
+}
